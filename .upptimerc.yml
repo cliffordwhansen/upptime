@@ -12,7 +12,7 @@ sites:
   - name: Jellyfin
     url: https://jellyfin.nighthawk.co.za/web/
   - name: Minecraft
-    url: https://minecrafft.nighthawk.co.za
+    url: https://minecraft.nighthawk.co.za
     expectedStatusCodes:
       - 400
 
@@ -28,7 +28,7 @@ sites:
     url: https://jellyfin.nighthawk.co.za/web/
     ipv6: true
   - name: Minecraft IPv6
-    url: https://minecrafft.nighthawk.co.za
+    url: https://minecraft.nighthawk.co.za
     expectedStatusCodes:
       - 400
     ipv6: true
