@@ -1,26 +1,49 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: cliffordwhansen
+repo: upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Requests
+    url: https://requests.nighthawk.co.za/login
+  - name: Plex
+    url: https://plex.nighthawk.co.za
+    expectedStatusCodes:
+      - 401
+  - name: Jellyfin
+    url: https://jellyfin.nighthawk.co.za/web/
+  - name: Minecraft
+    url: https://minecrafft.nighthawk.co.za
+    expectedStatusCodes:
+      - 400
 
+  - name: Requests IPv6
+    url: https://requests.nighthawk.co.za/login
+    ipv6: true
+  - name: Plex IPv6
+    url: https://plex.nighthawk.co.za
+    expectedStatusCodes:
+      - 401
+    ipv6: true
+  - name: Jellyfin IPv6
+    url: https://jellyfin.nighthawk.co.za/web/
+    ipv6: true
+  - name: Minecraft IPv6
+    url: https://minecrafft.nighthawk.co.za
+    expectedStatusCodes:
+      - 400
+    ipv6: true
+
+assignees:
+  - cliffordwhansen
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.nighthawk.co.za
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introMessage: This is a status page to see if any of my services are down
   navbar:
     - title: Status
       href: /
