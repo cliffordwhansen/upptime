@@ -7,35 +7,41 @@ secrets:
   - NOTIFICATION_DISCORD_WEBHOOK_URL
 
 sites:
-  - name: Requests
+  - name: Requests (IPv4)
     url: https://requests.nighthawk.co.za/login
     icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/seerr.svg
-  - name: Plex
+  - name: Requests (IPv6)
+    url: https://requests.nighthawk.co.za/login
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/seerr.svg
+    ipv6: true
+
+  - name: Plex (IPv4)
     url: https://plex.nighthawk.co.za
     icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/plex.svg
     expectedStatusCodes:
       - 401
-  - name: Jellyfin
+  - name: Plex (IPv6)
+    url: https://plex.nighthawk.co.za
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/plex.svg
+    expectedStatusCodes:
+      - 401
+    ipv6: true
+
+  - name: Jellyfin (IPv4)
     url: https://jellyfin.nighthawk.co.za/web/
     icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/jellyfin.svg
-  - name: Minecraft
+  - name: Jellyfin (IPv6)
+    url: https://jellyfin.nighthawk.co.za/web/
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/jellyfin.svg
+    ipv6: true
+
+  - name: Minecraft (IPv4)
     url: https://minecraft.nighthawk.co.za
     icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/minecraft.svg
-
-  # - name: Requests IPv6
-  #   url: https://requests.nighthawk.co.za/login
-  #   ipv6: true
-  # - name: Plex IPv6
-  #   url: https://plex.nighthawk.co.za
-  #   expectedStatusCodes:
-  #     - 401
-  #   ipv6: true
-  # - name: Jellyfin IPv6
-  #   url: https://jellyfin.nighthawk.co.za/web/
-  #   ipv6: true
-  # - name: Minecraft IPv6
-  #   url: https://minecraft.nighthawk.co.za
-  #   ipv6: true
+  - name: Minecraft (IPv6)
+    url: https://minecraft.nighthawk.co.za
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/minecraft.svg
+    ipv6: true
 
 assignees:
   - cliffordwhansen
@@ -49,3 +55,25 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+  customCSS: |
+    /* Selects the section grid wrapper */
+    section.live-status {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+      gap: 16px !important;
+      margin-top: 16px !important; /* Pushes the entire section down cleanly */
+    }
+
+    /* Standardizes spacing on the custom article components */
+    section.live-status article.up {
+      margin-bottom: 0 !important;
+      margin-top: 0 !important;
+    }
+
+    /* Switches back to a single column list layout on mobile viewports */
+    @media (max-width: 768px) {
+      section.live-status {
+        grid-template-columns: 1fr !important;
+      }
+    }
