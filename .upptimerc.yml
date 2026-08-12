@@ -43,7 +43,7 @@ assignees:
 status-website:
   cname: status.nighthawk.co.za
   name: NiGhTHawK Status Page
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  theme: dark
   navbar:
     - title: Status
       href: /
