@@ -59,19 +59,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.nighthawk.co.za.ico",
     "slug": "minecraft",
     "status": "up",
-    "uptime": "4.84%",
-    "uptimeDay": "4.84%",
-    "uptimeWeek": "4.84%",
-    "uptimeMonth": "4.84%",
-    "uptimeYear": "4.84%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 119,
     "timeDay": 119,
     "timeWeek": 119,
     "timeMonth": 119,
     "timeYear": 119,
-    "dailyMinutesDown": {
-      "2026-08-12": 9
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Requests IPv6",
@@ -133,18 +131,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.nighthawk.co.za.ico",
     "slug": "minecraft-i-pv6",
     "status": "up",
-    "uptime": "4.63%",
-    "uptimeDay": "4.63%",
-    "uptimeWeek": "4.63%",
-    "uptimeMonth": "4.63%",
-    "uptimeYear": "4.63%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 76,
     "timeDay": 76,
     "timeWeek": 76,
     "timeMonth": 76,
     "timeYear": 76,
-    "dailyMinutesDown": {
-      "2026-08-12": 9
-    }
+    "dailyMinutesDown": {}
   }
 ]
