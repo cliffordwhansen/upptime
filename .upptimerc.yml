@@ -13,8 +13,6 @@ sites:
     url: https://jellyfin.nighthawk.co.za/web/
   - name: Minecraft
     url: https://minecraft.nighthawk.co.za
-    expectedStatusCodes:
-      - 400
 
   - name: Requests IPv6
     url: https://requests.nighthawk.co.za/login
@@ -29,8 +27,6 @@ sites:
     ipv6: true
   - name: Minecraft IPv6
     url: https://minecraft.nighthawk.co.za
-    expectedStatusCodes:
-      - 400
     ipv6: true
 
 assignees:
