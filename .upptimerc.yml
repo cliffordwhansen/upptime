@@ -56,7 +56,7 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-  customCSS: |
+  css: |
     /* Selects the section grid wrapper */
     section.live-status {
       display: grid !important;
