@@ -2,6 +2,10 @@
 owner: cliffordwhansen
 repo: upptime
 
+secrets:
+  - NOTIFICATION_DISCORD
+  - NOTIFICATION_DISCORD_WEBHOOK_URL
+
 sites:
   - name: Requests
     url: https://requests.nighthawk.co.za/login
