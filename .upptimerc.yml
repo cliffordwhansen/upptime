@@ -58,4 +58,4 @@ status-website:
 
   links:
     - rel: stylesheet
-      href: /custom-styles.css
+      href: https://status.nighthawk.co.za/custom-styles.css
