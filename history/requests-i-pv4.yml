@@ -1,7 +1,7 @@
 url: https://requests.nighthawk.co.za/login
-status: up
-code: 200
-responseTime: 2581
-lastUpdated: 2026-08-14T23:39:50.399Z
+status: down
+code: 502
+responseTime: 366
+lastUpdated: 2026-08-15T23:20:08.882Z
 startTime: 2026-08-12T15:23:35.855Z
 generator: Upptime <https://github.com/upptime/upptime>
