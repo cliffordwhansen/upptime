@@ -1,7 +1,7 @@
 url: https://plex.nighthawk.co.za
-status: up
-code: 401
-responseTime: 719
-lastUpdated: 2026-08-16T23:56:52.480Z
+status: down
+code: 502
+responseTime: 809
+lastUpdated: 2026-08-17T23:10:45.592Z
 startTime: 2026-08-12T15:23:38.952Z
 generator: Upptime <https://github.com/upptime/upptime>
