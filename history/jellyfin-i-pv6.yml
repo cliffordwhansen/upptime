@@ -1,7 +1,7 @@
 url: https://jellyfin.nighthawk.co.za/web/
-status: up
-code: 200
-responseTime: 753
-lastUpdated: 2026-08-17T23:52:42.918Z
+status: down
+code: 502
+responseTime: 815
+lastUpdated: 2026-08-18T23:12:03.498Z
 startTime: 2026-08-12T15:23:42.561Z
 generator: Upptime <https://github.com/upptime/upptime>
